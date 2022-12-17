@@ -1,0 +1,108 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container{
+   width: 1240px;
+   margin: 0 auto;
+}
+
+body{
+   background-color: blue;
+
+}
+
+.div{
+   margin-top: 100px;
+   color: white;
+}
+
+.Header_wrapper_div{
+   margin-top: 10px;
+   display: grid;
+   height: 100vh;
+   grid-template-columns:repeat(3, 260px);
+   grid-template-rows:repeat(4, 120px);
+   grid-template-areas:
+   "Mass Res Overlap Overlap" 
+   "Mass Flu Exp Negat"
+   "Flex Mason Exp Mason1"
+   "Dom Mason Name Name ";   
+}
+
+.look{
+   background-color:white;
+   margin: 5px;
+   text-align: center;
+   padding-top: 45px;
+}
+
+.div-wrapper1{
+   grid-area: Mass;
+}
+
+.div-wrapper2{
+   grid-area: Res;
+}
+
+.div-wrapper3{
+   grid-area: Overlap;
+}
+
+.div-wrapper4{
+   grid-area: Mass;
+}
+
+.div-wrapper5{
+   grid-area: Flu;
+}
+
+.div-wrapper6{
+   grid-area:Exp;
+}
+
+.div-wrapper7{
+   grid-area: Negat;
+}
+
+.div-wrapper8{
+   grid-area:Flex;
+}
+
+.div-wrapper9{
+   grid-area: Mason;
+}
+
+.div-wrapper10{
+   grid-area: Exp;
+}
+
+.div-wrapper11{
+   grid-area: Mason1;
+}
+
+.div-wrapper12{
+   grid-area: Dom;
+}
+
+.div-wrapper13{
+   grid-area: Mason;
+}
+
+.div-wrapper14{
+   grid-area: Name;
+}
+
+
+
+
+
+
+
+
+
+
+
+
